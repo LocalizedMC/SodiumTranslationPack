@@ -23,3 +23,14 @@
 |       简体中文        |           简体中文            |               简体中文                |
 |                       |                               |                                       |
 
+
+
+### 感谢
+
+Sodium作者**JellySquid**
+
+SodiumReforged作者**spoorn**
+
+Sodium-Extra作者**FlashyReese**
+
+**MojangStudio**
