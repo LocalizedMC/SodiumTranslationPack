@@ -59,11 +59,8 @@
     "sodium.options.allow_direct_memory_access.tooltip": "如果启用，一些关键代码路径将允许使用直接内存访问来提高性能. 这通常会大大减少区块和实体呈现的CPU开销，但会使诊断某些错误和崩溃变得更加困难。你应该禁用这个，如果你已经被要求或以其他方式知道你在做什么.",
     "sodium.options.ignore_driver_disallowlist.name": "忽略驱动程序黑名单",
     "sodium.options.ignore_driver_disallowlist.tooltip": "如果启用，与硬件/驱动程序配置的已知不兼容将被忽略，允许您启用可能导致游戏问题的选项。除非你确切知道你在做什么，否则你一般不应该碰这个选项。更改此选项后，必须保存、关闭并重新打开设置屏幕。",
-    "sodium.options.enable_memory_tracing.name": "启用内存跟踪",
-    "sodium.options.enable_memory_tracing.tooltip": "调试功能. 如果启用，堆栈跟踪将与内存分配一起收集，以帮助在检测到内存泄漏时改进诊断信息.",
     "sodium.options.performance_impact_string": "性能影响：%s",
     "sodium.options.buttons.undo": "撤销",
     "sodium.options.buttons.apply": "应用",
-    "sodium.options.buttons.close": "关闭",
-    "sodium.options.buttons.donate": "给我们买杯咖啡(赞助)!"
+    "sodium.options.buttons.close": "关闭"
 }

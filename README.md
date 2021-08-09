@@ -3,25 +3,26 @@
 [EN](https://gitee.com/TexTrue/SodiumTranslationPack/blob/master/README-EN.md) / [ZH-CN](https://gitee.com/TexTrue/SodiumTranslationPack/blob/master/README.md)
 ## 这是什么？
 
-在 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100)、[#517](https://github.com/CaffeineMC/sodium-fabric/pull/517)、[#717](https://github.com/CaffeineMC/sodium-fabric/pull/717)对本地化进行了支持并被整合到[CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric)/[1.17.x/dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) 分支,但由于作者未将[OneSky](https://jellysquid.oneskyapp.com/collaboration/project?id=366422)上的翻译移动到模组内。
+在 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull Request [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100)、[#517](https://github.com/CaffeineMC/sodium-fabric/pull/517)、[#717](https://github.com/CaffeineMC/sodium-fabric/pull/717)对本地化进行了支持并被整合到[CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric)/[1.17.x/dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) 分支,但由于作者未将[OneSky](https://jellysquid.oneskyapp.com/collaboration/project?id=366422)上的翻译移动到模组内。
 
 ### 此材质包分为多个版本，详见下表：
 
-|          材质包名称           |    模组支持     | 游戏版本支持  | ModLoader |
-| :---------------------------: | :-------------: | :-----------: | :-------: |
-|     SodiumTranslationPack     |     Sodium      | 1.16.x/1.17.x |  Fabric   |
-| SodiumReforgedTranslationPack | Sodium Reforged |    1.16.x     |   Forge   |
-|  Sodium-ExtraTranslationPack  |  Sodium-Extra   |     未知①     |  Fabric   |
+|             材质包名称              |                        模组支持                         | 游戏版本支持  | ModLoader |
+| :---------------------------------: | :-----------------------------------------------------: | :-----------: | :-------: |
+|        SodiumTranslationPack        |                         Sodium                          | 1.16.x/1.17.x |  Fabric   |
+|    SodiumReforgedTranslationPack    |                     Sodium Reforged                     |    1.16.x     |   Forge   |
+|     Sodium-ExtraTranslationPack     |                      Sodium-Extra①                      |    1.17.x     |  Fabric   |
+| BSVSB&Sodium&SodiumExtraTranslation | Sodium&Sodium-Extra&Better Sodium Video Settings Button |    1.17.x     |  Fabric   |
 
-> ①：由于Sodium-Extra不支持本地化，所以暂不支持。
+> ①：详见[Pull Request #59](https://github.com/FlashyReese/sodium-extra-fabric/pull/59)。
 
 ### 支持语言：
 
-| SodiumTranslationPack | SodiumReforgedTranslationPack | Sodium-ExtraTranslationPack[暂不支持] |
-| :-------------------: | :---------------------------: | :-----------------------------------: |
-|  英语-美国（源语言）  |      英语-美国（源语言）      |          英语-美国（源语言）          |
-|       简体中文        |           简体中文            |               简体中文                |
-|                       |                               |                                       |
+| SodiumTranslationPack | SodiumReforgedTranslationPack | Sodium-ExtraTranslationPack |
+| :-------------------: | :---------------------------: | :-------------------------: |
+|  英语-美国（源语言）  |      英语-美国（源语言）      |     英语-美国（源语言）     |
+|       简体中文        |           简体中文            |          简体中文           |
+|                       |                               |                             |
 
 
 
@@ -34,3 +35,7 @@ SodiumReforged作者**spoorn**
 Sodium-Extra作者**FlashyReese**
 
 **MojangStudio**
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">知识共享署名-相同方式共享 4.0 国际许可协议(CC-BY-SA)</a>进行许可。
