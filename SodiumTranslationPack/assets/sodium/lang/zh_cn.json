@@ -10,7 +10,6 @@
     "sodium.options.view_distance.tooltip": "渲染距离控制地形应被渲染至多远。更低的距离意味着更少的地形可见，也就有利于提升帧率。",
     "sodium.options.brightness.tooltip": "亮度：控制游戏的亮度",
     "sodium.options.clouds.tooltip": "控制云是否可见。",
-
     "sodium.options.gui_scale.tooltip": "设置游戏界面大小， 如果设置为“自动”，则将使用最大的比例",
     "sodium.options.fullscreen.tooltip": "如果启用，游戏将全屏显示(如果支持)。",
     "sodium.options.v_sync.name": "垂直同步",
@@ -32,9 +31,6 @@
     "sodium.options.vignette.name": "晕影",
     "sodium.options.vignette.tooltip": "启用后，屏幕四角处会轻微变暗。除非设备GPU的像素填充率过低，否则基本不影响帧率。",
     "sodium.options.mipmap_levels.tooltip": "控制方块模型材质的多级渐远纹理（Mipmap）的数量。较高的值可使远处的物体获得更好的渲染效果，但在渲染很多动态材质时可能产生严重的性能下降。",
-
-
-
     "sodium.options.use_block_face_culling.name": "启用剔除方块遮挡面",
     "sodium.options.use_block_face_culling.tooltip": "如果启用，则仅对面向摄影机的方块的侧面进行渲染。这可以在渲染过程的早期消除大量块面，节省GPU上的内存带宽和时间. 某些资源包可能有此选项的问题，因此，如果在方块块中看到漏洞，请尝试禁用它.",
     "sodium.options.use_fog_occlusion.name": "启用迷雾遮挡",
