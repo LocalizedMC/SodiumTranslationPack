@@ -10,7 +10,7 @@ Localization is supported in [CaffeineMC/sodium-fabric](https://github.com/Caffe
 |       ResourcePack Name       |   Mod Support   | Game Version Support | ModLoader |
 | :---------------------------: | :-------------: | :------------------: | :-------: |
 |     SodiumTranslationPack     |     Sodium      |    1.16.x/1.17.x     |  Fabric   |
-| SodiumReforgedTranslationPack | Sodium Reforged |        1.16.x        |   Forge   |
+| HalogenTranslationPack | Halogen |        1.16.x        |   Forge   |
 |  Sodium-ExtraTranslationPack  |  Sodium-Extra   |       1.17.x       |  Fabric   |
 | BSVSB&Sodium&SodiumExtraTranslation | Sodium&Sodium-Extra&Better Sodium Video Settings Button |    1.17.x     |  Fabric   |
 
@@ -18,7 +18,7 @@ Localization is supported in [CaffeineMC/sodium-fabric](https://github.com/Caffe
 
 ### Language support:
 
-|     SodiumTranslationPack      | SodiumReforgedTranslationPack  | Sodium-ExtraTranslationPack  |
+|     SodiumTranslationPack      | HalogenTranslationPack | Sodium-ExtraTranslationPack  |
 | :----------------------------: | :----------------------------: | :----------------------------------------: |
 | English UnitedStates(Original) | English UnitedStates(Original) |       English UnitedStates(Original)       |
 |       Simplified Chinese       |       Simplified Chinese       |             Simplified Chinese             |
@@ -28,7 +28,7 @@ Localization is supported in [CaffeineMC/sodium-fabric](https://github.com/Caffe
 
 Sodium author:**JellySquid**
 
-Sodium Reforged author:**sporn**
+Halogen author:**sporn**
 
 Sodium-Extra author:**Flashy Reese**
 
