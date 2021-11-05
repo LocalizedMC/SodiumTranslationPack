@@ -18,19 +18,23 @@ Localization is supported in [CaffeineMC/sodium-fabric](https://github.com/Caffe
 
 ### Language support:
 
-|     SodiumTranslationPack      | HalogenTranslationPack | Sodium-ExtraTranslationPack  |
-| :----------------------------: | :----------------------------: | :----------------------------------------: |
-| English UnitedStates(Original) | English UnitedStates(Original) |       English UnitedStates(Original)       |
-|       Simplified Chinese       |       Simplified Chinese       |             Simplified Chinese             |
+| SodiumTranslationPack | HalogenTranslationPack | Sodium-ExtraTranslationPack | MagnesiumTranslationPack | ChlorineTranslationPack | BSVSB&Sodium&SodiumExtraTranslationPack | Magnesium&BMVSBTranslationPack |
+| :-------------------: | :--------------------: | :-------------------------: | :----------------------: | :---------------------: | :-------------------------------------: | :----------------------------: |
+|  En-US(SourceLanguage)  | En-US(SourceLanguage) |    En-US(SourceLanguage)    | En-US(SourceLanguage) |   En-US(SourceLanguage)   |           En-US(SourceLanguage)           | En-US(SourceLanguage) |
+| Simplified Chinese |        Simplified Chinese        |  Simplified Chinese |         Simplified Chinese         | Simplified Chinese |              Simplified Chinese |            Simplified Chinese            |
 
 
 ### Thanks:
 
-Sodium author:**JellySquid**
+Sodium author: **JellySquid**
 
-Halogen author:**sporn**
+Halogen author: **sporn**
 
-Sodium-Extra author:**Flashy Reese**
+Sodium-Extra author: **Flashy Reese**
+
+Magnesium author: **someoneelsewastaken**
+
+Better Sodium Video Settings Button & Better Magnesium Video Settings Button author: **LimeShulkerBox**
 
 **MojangStudio**
 
