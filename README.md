@@ -3,7 +3,7 @@
 [EN](https://github.com/TexBlock/SodiumTranslationPack/blob/master/README-EN.md) / [ZH-CN](https://gitee.com/TexTrue/SodiumTranslationPack/blob/master/README.md)
 ## 这是什么？
 
-这是Sodium及其附属和Forge分支的翻译包
+这是Sodium及其附属和Forge分支的翻译资源包
 
 在 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull Request [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) 、 [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) 、[#717](https://github.com/CaffeineMC/sodium-fabric/pull/717) 对本地化进行了支持并被整合到 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x/dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) 分支,但由于作者未将 [OneSky](https://jellysquid.oneskyapp.com/collaboration/project?id=366422) 上的翻译移动到模组内,此材质包提供了简体中文翻译。
 
