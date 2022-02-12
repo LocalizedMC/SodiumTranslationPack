@@ -1,6 +1,6 @@
 # Sodium Translation Pack
 
-[EN](https://github.com/TexBlock/SodiumTranslationPack/blob/master/README-EN.md) / [ZH-CN](https://gitee.com/TexTrue/SodiumTranslationPack/blob/master/README.md)
+EN / [ZH-CN](README.md)
 ## What's this?
 
 Translation resource packs for Sodium and its affiliates and Forge branches
