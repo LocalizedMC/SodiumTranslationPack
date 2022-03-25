@@ -1,4 +1,4 @@
-<img src="\SodiumTranslationPack\pack.png" style="zoom: 25%;" />   <img src="\ChlorineTranslationPack\pack.png" style="zoom:25%;" /> <img src="\HalogenTranslationPack\pack.png" style="zoom: 23%;" /> <img src="\MagnesiumTranslationPack\pack.png" style="zoom: 23%;" /> ![](\RubidiumTranslationPack\pack.png) <img src="\Sodium-ExtraTranslationPack\pack.png" style="zoom: 25%;" />  <img src="\BSVSBTranslationPack\pack.png" style="zoom: 4%;" /><img src="\BSVSB&Sodium&Sodium-ExtraTranslationPack\pack.png" style="zoom:25%;" />
+<img src="/SodiumTranslationPack/pack.png" style="zoom: 25%;" />   <img src="/ChlorineTranslationPack/pack.png" style="zoom:25%;" /> <img src="/HalogenTranslationPack/pack.png" style="zoom: 23%;" /> <img src="/MagnesiumTranslationPack/pack.png" style="zoom: 23%;" /> ![](/RubidiumTranslationPack/pack.png) <img src="/Sodium-ExtraTranslationPack/pack.png" style="zoom: 25%;" />  <img src="/BSVSBTranslationPack/pack.png" style="zoom: 4%;" /><img src="/BSVSB&Sodium&Sodium-ExtraTranslationPack/pack.png" style="zoom:25%;" />
 
 # Sodium Translation Pack
 
