@@ -10,9 +10,7 @@
   "sodium-extra.option.biome_colors.tooltip": "生物群系颜色根据生物群系变化",
   "sodium-extra.option.block_animations": "方块动画",
   "sodium-extra.option.block_animations.tooltip": "开启或关闭方块动画",
-  "sodium-extra.option.block_break": "方块：破坏",
   "sodium-extra.option.block_break.tooltip": "开启或关闭方块破坏粒子",
-  "sodium-extra.option.block_breaking": "方块：破坏中",
   "sodium-extra.option.block_breaking.tooltip": "开启或关闭方块破坏中粒子",
   "sodium-extra.option.bubbles.tooltip": "开启或关闭气泡粒子效果",
   "sodium-extra.option.cloud_height": "云层高度",
@@ -27,6 +25,8 @@
   "sodium-extra.option.fireworks.tooltip": "开启或关闭烟花粒子效果",
   "sodium-extra.option.fog": "迷雾",
   "sodium-extra.option.fog.tooltip": "设置地形开始显示迷雾效果的距离.\n0 - 使用原版的迷雾设置\n1-32 - 以方块为单位设置迷雾距离\n33 - 最大迷雾距离(基本上禁用迷雾)",
+  "sodium-extra.option.gl_debug_verbosity": "OpenGL 调试输出",
+  "sodium-extra.option.gl_debug_verbosity.tooltip": "调试输出是 OpenGL 的一项功能，它使调试和优化 OpenGL 应用程序更加容易。简而言之，此功能为驱动程序提供了一种将文本消息信息返回给应用程序的方法。\n修改此选项将需要重新启动游戏。",
   "sodium-extra.option.instant_sneak": "直接潜行",
   "sodium-extra.option.instant_sneak.tooltip": "潜行时视角直接下移而不是缓慢地",
   "sodium-extra.option.item_frames.tooltip": "开启或关闭显示物品展示框",
@@ -76,5 +76,7 @@
   "sodium-extra.option.water.tooltip": "开启或关闭水面粒子效果",
   "sodium-extra.overlay.coordinates": "X: %s, Y: %s, Z: %s",
   "sodium-extra.overlay.fps": "%s FPS",
-  "sodium-extra.overlay.fps_extended": "(最大值: %s / 平均值: %s / 最小值: %s)"
+  "sodium-extra.overlay.fps_extended": "(最大值: %s / 平均值: %s / 最小值: %s)",
+  "sodium-extra.suggestRSO.header": "建议：安装 Reese's Sodium Options",
+  "sodium-extra.suggestRSO.message": "强烈建议您在安装Sodium Extra的同时安装Reese's Sodium Options。由于越来越多的功能，它不再适合Sodium的视频设置。"
 }

@@ -1,26 +1,29 @@
-<img src="/SodiumTranslationPack/pack.png" style="zoom: 25%;" />   <img src="/ChlorineTranslationPack/pack.png" style="zoom:25%;" /> <img src="/HalogenTranslationPack/pack.png" style="zoom: 23%;" /> <img src="/MagnesiumTranslationPack/pack.png" style="zoom: 23%;" /> ![](/RubidiumTranslationPack/pack.png) <img src="/Sodium-ExtraTranslationPack/pack.png" style="zoom: 25%;" />  <img src="/BSVSBTranslationPack/pack.png" style="zoom: 4%;" /><img src="/BSVSB&Sodium&Sodium-ExtraTranslationPack/pack.png" style="zoom:25%;" />
+![](/icons/PackIcon/bitmap-png/SodiumPack.png) ![](/icons/PackIcon/bitmap-png/ChlorinePack.png) ![](/icons/PackIcon/bitmap-png/HalogenPack.png) ![](/icons/PackIcon/bitmap-png/MagnesiumPack.png) ![](/icons/PackIcon/bitmap-png/RubidiumPack.png) ![](/icons/PackIcon/bitmap-png/Sodium-ExtraPack.png) ![](/icons/PackIcon/bitmap-png/BSVSBPack.png) ![](/icons/PackIcon/bitmap-png/SodiumAllPack.png) ![](/icons/PackIcon/bitmap-png/Magnesium&BMVSBPack.png)
 
 # Sodium Translation Pack
 
 [EN](README-EN.md) / ZH-CN
 
+[TOC]
+
 ## 这是什么？
 
 这是Sodium及其附属和Forge分支的翻译资源包
 
-在 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull Request [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) 、 [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) 、[#717](https://github.com/CaffeineMC/sodium-fabric/pull/717) 对本地化进行了支持并被整合到 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x/dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) 分支,但由于作者未将 ~~[OneSky](https://jellysquid.oneskyapp.com/collaboration/project?id=366422)~~ [Crowdin](https://crowdin.com/translate/sodium-fabric) 上的翻译移动到模组内,此材质包提供了简体中文翻译(有可能停止更新Sodium翻译，原因见 #Sodium Translation Project )。
+在 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull Request [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) 、 [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) 、[#717](https://github.com/CaffeineMC/sodium-fabric/pull/717) 对本地化进行了支持并被整合到 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x/dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) 分支,但由于作者未将 ~~[OneSky](https://jellysquid.oneskyapp.com/collaboration/project?id=366422)~~ [Crowdin](https://crowdin.com/translate/sodium-fabric) 上的翻译移动到模组内,此材质包提供了简体中文翻译(有可能停止更新Sodium翻译 
 
-
+[^1]: Sodium Translation Project
+)。
 
 ### 模组及游戏版本支持
 
 
 |               材质包名称               |                          支持模组                          |   游戏版本支持   | 模组加载器 |
 | :---------------------------------------: | :-----------------------------------------------------------: | :----------------: | :----------: |
-|          SodiumTranslationPack          |                           Sodium                           |  1.17.x&1.18.x  |   Fabric   |
+|          SodiumTranslationPack          |                           Sodium                           |  ~~1.16.5~~1.17.x&1.18.x  |   Fabric   |
 |         HalogenTranslationPack         |                           Halogen                           |      1.16.x      |   Forge   |
 |       Sodium-ExtraTranslationPack       |                        Sodium-Extra                        |  1.17.x&1.18.x  |   Fabric   |
-| BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button |  1.17.x&1.18.x  |   Fabric   |
+| BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button |  ~~1.16.5~~&1.17.x&1.18.x  |   Fabric   |
 |        MagnesiumTranslationPack        |                          Magnesium                          | ~~1.16.5~~1.18.x |   Forge   |
 |         ChlorineTranslationPack         |                          Chlorine                          |      1.16.x      |   Forge   |
 |     Magnesium&BMVSBTranslationPack     |     Magnesium & Better Magnesium Video Settings Button     | ~~1.16.5~~1.18.x |   Forge   |
