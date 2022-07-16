@@ -1,12 +1,11 @@
-![](/icons/PackIcon/bitmap-png/SodiumPack.png)  ![](/icons/PackIcon/bitmap-png/RubidiumPack.png) ![](/icons/PackIcon/bitmap-png/SodiumAllPack.png)
-
-# Sodium Translation Pack
+<p align="center">
+ <img width="100px" src="icons/PackIcon/bitmap-png/SodiumPack.png" align="center" alt="" />
+ <img width="100px" src="icons/PackIcon/bitmap-png/RubidiumPack.png" align="center" alt="" />
+ <img width="100px" src="icons/PackIcon/bitmap-png/SodiumAllPack.png" align="center" alt="" />
+ <h2 align="center">Sodium Translation Pack</h2>
+ <p align="center">Sodium及其附属和Forge分支的翻译资源包</p>
 
 [English](README-EN.md) / 简体中文
-
-## 这是什么？
-
-这是Sodium及其附属和Forge分支的翻译资源包。
 
 在 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) PR [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) 、 [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) 、[#717](https://github.com/CaffeineMC/sodium-fabric/pull/717)
 对本地化进行了支持并被合并到 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x/dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) 分支,
@@ -15,10 +14,10 @@
 
 ### 模组及游戏版本支持
 
-|               材质包名称               |                          支持模组                          |              游戏版本支持               | 模组加载器 |
-| :-------------------------------------: | :---------------------------------------------------------: |:---------------------------------:| :--------: |
-| BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button | 1.16.x & 1.17.x & 1.18.x & 1.19.x |   Fabric   |
-|           RubidiumTranslationPack           |                     Rubidium                     |          1.18.x & 1.19.x          |   Forge   |
+|               材质包名称               |                          支持模组                          |     游戏版本支持      | 模组加载器 |
+| :-------------------------------------: | :---------------------------------------------------------: |:---------------:| :--------: |
+| BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button | 1.16.x ~ 1.19.x |   Fabric   |
+|           RubidiumTranslationPack           |                     Rubidium                     | 1.18.x ~ 1.19.x |   Forge   |
 
 > Sodium及其附属 1.16.x 翻译: [【Sodium】钠模组汉化 游戏帧数优化三件套 - 哔哩哔哩专栏](https://www.bilibili.com/read/cv6832123/)
 >
