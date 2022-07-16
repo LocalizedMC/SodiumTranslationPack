@@ -62,5 +62,5 @@
     "sodium.options.always_defer_chunk_updates.tooltip": "如果启用，渲染将永远不会等待区块更新完成，即使它们很重要。 这可以在某些情况下大大提高帧速率，但它可能会在世界上造成明显的视觉滞后。",
     "sodium.options.buttons.undo": "撤销",
     "sodium.options.buttons.apply": "应用",
-    "sodium.options.buttons.donate": "赞助JellySquid！"
+    "sodium.options.buttons.donate": "赞助 CaffeineMC"
 }

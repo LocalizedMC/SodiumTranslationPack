@@ -2,31 +2,24 @@
 
 # Sodium Translation Pack
 
-EN / [ZH-CN](README.md)
+English / [简体中文](README.md)
 
-[TOC]
+[toc]
 
 ## What's this ?
 
-Translation resource packs for Sodium and its affiliates and Forge branches .
+Translation resource packs for Sodium and its affiliates and Forge branches .（Only Simplified Chinese）
 
-Localization is supported in [CaffeineMC / sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) [#717](https://github.com/CaffeineMC/sodium-fabric/pull/717) and integrated into [CaffeineMC / sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x / dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) . However , the translation on ~~[OneSky](https://jellysquid.oneskyapp.com/collaboration/project?id=366422)~~ [Crowdin](https://crowdin.com/translate/sodium-fabric) is not moved into the Sodium .
+Localization is supported in [CaffeineMC / sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) [#717](https://github.com/CaffeineMC/sodium-fabric/pull/717) and integrated into [CaffeineMC / sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x / dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) . However , the translation on [Crowdin](https://crowdin.com/translate/sodium-fabric) is not moved into the Sodium .
 
-### Mod and game version support :
+(It is possible to stop updating sodium translation,  [Sodium Translation Project](https://gist.github.com/amnotbananaama/6cfd6ce27e3258d50db6a4fd9291aa94) )
 
-|       ResourcePack Name       |   Mod Support   | Game Version Support | ModLoader |
-| :---------------------------: | :-------------: | :------------------: | :-------: |
-|     SodiumTranslationPack     |     Sodium      |    ~~1.16.x &~~1.17.x & 1.18.x    |  Fabric   |
-| HalogenTranslationPack | Halogen |        1.16.5        |   Forge   |
-|  Sodium-ExtraTranslationPack  |  Sodium-Extra   |       1.17.x & 1.18.x       |  Fabric   |
-| BSVSB&Sodium&SodiumExtraTranslation | Sodium & Sodium-Extra & Better Sodium Video Settings Button |    1.17.x & 1.18.x    |  Fabric   |
-|        MagnesiumTranslationPack         |                          Magnesium                          | ~~1.16.5~~1.18.x |   Forge    |
-|         ChlorineTranslationPack         |                          Chlorine                           |      1.16.5      |   Forge    |
-|     Magnesium&BMVSBTranslationPack      |     Magnesium & Better Magnesium Video Settings Button      | ~~1.16.5~~1.18.x |   Forge    |
-| RubidiumTranslationPack | Rubidium | 1.18.x | Forge |
+### Mod & Game Version support :
 
-
-
+|          ResourcePack Name          |                          Mod Support                          |       Game Version Support        | ModLoader |
+| :---------------------------------: | :-----------------------------------------------------------: |:---------------------------------:| :-------: |
+| BSVSB&Sodium&SodiumExtraTranslation |  Sodium & Sodium-Extra & Better Sodium Video Settings Button  | 1.16.x & 1.17.x & 1.18.x & 1.19.x |  Fabric  |
+|         RubidiumTranslationPack         |                      Rubidium                     |          1.18.x & 1.19.x          |   Forge   |
 
 ### Thanks :
 
@@ -46,10 +39,4 @@ Localization is supported in [CaffeineMC / sodium-fabric](https://github.com/Caf
 
 **MojangStudio**
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License(CC-BY-SA)</a>.
-
-
-
-# Sodium Translation Project
-
-<script src="https://gist.github.com/amnotbananaama/6cfd6ce27e3258d50db6a4fd9291aa94.js"></script>
+`<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />``</a>`This work is licensed under a `<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">`Creative Commons Attribution-ShareAlike 4.0 International License(CC-BY-SA)`</a>`.
