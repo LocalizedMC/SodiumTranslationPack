@@ -1,10 +1,11 @@
-![](/icons/PackIcon/bitmap-png/SodiumPack.png) ![](/icons/PackIcon/bitmap-png/ChlorinePack.png) ![](/icons/PackIcon/bitmap-png/HalogenPack.png) ![](/icons/PackIcon/bitmap-png/MagnesiumPack.png) ![](/icons/PackIcon/bitmap-png/RubidiumPack.png) ![](/icons/PackIcon/bitmap-png/Sodium-ExtraPack.png) ![](/icons/PackIcon/bitmap-png/BSVSBPack.png) ![](/icons/PackIcon/bitmap-png/SodiumAllPack.png) ![](/icons/PackIcon/bitmap-png/Magnesium&BMVSBPack.png)
-
-# Sodium Translation Pack
+<p align="center">
+ <img width="100px" src="icons/PackIcon/bitmap-png/SodiumPack.png" align="center" alt="" />
+ <img width="100px" src="icons/PackIcon/bitmap-png/RubidiumPack.png" align="center" alt="" />
+ <img width="100px" src="icons/PackIcon/bitmap-png/SodiumAllPack.png" align="center" alt="" />
+ <h2 align="center">Sodium Translation Pack</h2>
+ <p align="center">Translation resource packs for Sodium and its affiliates and Forge branches. (Only Simplified Chinese）</p>
 
 English / [简体中文](README.md)
-
-[toc]
 
 ## What's this ?
 
@@ -16,10 +17,10 @@ Localization is supported in [CaffeineMC / sodium-fabric](https://github.com/Caf
 
 ### Mod & Game Version support :
 
-|          ResourcePack Name          |                          Mod Support                          |       Game Version Support        | ModLoader |
-| :---------------------------------: | :-----------------------------------------------------------: |:---------------------------------:| :-------: |
-| BSVSB&Sodium&SodiumExtraTranslation |  Sodium & Sodium-Extra & Better Sodium Video Settings Button  | 1.16.x & 1.17.x & 1.18.x & 1.19.x |  Fabric  |
-|         RubidiumTranslationPack         |                      Rubidium                     |          1.18.x & 1.19.x          |   Forge   |
+|          ResourcePack Name          |                          Mod Support                          | Game Version Support | ModLoader |
+| :---------------------------------: | :-----------------------------------------------------------: |:--------------------:| :-------: |
+| BSVSB&Sodium&SodiumExtraTranslation |  Sodium & Sodium-Extra & Better Sodium Video Settings Button  |   1.16.x ~ 1.19.x    |  Fabric  |
+|         RubidiumTranslationPack         |                      Rubidium                     |   1.18.x ~ 1.19.x    |   Forge   |
 
 ### Thanks :
 
