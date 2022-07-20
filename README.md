@@ -41,8 +41,10 @@
 
 [Sodium-Extra](https://github.com/FlashyReese/sodium-extra-fabric) 作者: **FlashyReese**
 
-[Better Sodium Video Settings Button](https://github.com/LimeShulkerBox/better-sodium-video-settings) & [Better Magnesium Video Settings Button](https://github.com/LimeShulkerBox/better-magnesium-video-settings-button) 作者: **LimeShulkerBox**
+[Better Sodium Video Settings Button](https://github.com/LimeShulkerBox/better-sodium-video-settings) 作者: **LimeShulkerBox**
 
 **MojangStudio**
 
-`<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />``</a>`本作品（简体中文语言文件）采用`<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">`知识共享署名-相同方式共享 4.0 国际许可协议(CC-BY-SA)`</a>`进行许可。
+<p align="center">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+</p>
