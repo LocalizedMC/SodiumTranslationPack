@@ -11,18 +11,16 @@ English / [简体中文](README.md)
 
 Translation resource packs for Sodium and its affiliates and Forge branches .
 
-Localization is supported in [CaffeineMC / sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) Pull [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) [#717](https://github.com/CaffeineMC/sodium-fabric/pull/717) and integrated into 
-[CaffeineMC / sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x / dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) . 
-However , the translation on [Crowdin](https://crowdin.com/translate/sodium-fabric) is not moved into the Sodium .
+This resource pack has been created because Sodium authors do not accept PR for language files.
 
 (It is possible to stop updating sodium translation,  [Sodium Translation Project](https://gist.github.com/amnotbananaama/6cfd6ce27e3258d50db6a4fd9291aa94) )
 
 ### Mod & Game Version support :
 
-|          ResourcePack Name          |                          Mod Support                          | Game Version Support | ModLoader |
-| :---------------------------------: | :-----------------------------------------------------------: |:--------------------:| :-------: |
-| BSVSB&Sodium&SodiumExtraTranslation |  Sodium & Sodium-Extra & Better Sodium Video Settings Button  |   1.16.x ~ 1.19.x    |  Fabric  |
-|         RubidiumTranslationPack         |                      Rubidium                     |   1.16.x ~ 1.19.x    |   Forge   |
+|          ResourcePack Name          |                         Mod Support                         | Game Version Support | ModLoader |
+|:-----------------------------------:|:-----------------------------------------------------------:|:--------------------:|:---------:|
+| BSVSB&Sodium&SodiumExtraTranslation | Sodium & Sodium-Extra & Better Sodium Video Settings Button |   1.16.x ~ 1.19.x    |  Fabric   |
+|       RubidiumTranslationPack       |                          Rubidium                           |   1.16.x ~ 1.19.x    |   Forge   |
 
 ### Thanks :
 

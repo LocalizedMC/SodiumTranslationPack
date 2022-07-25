@@ -7,9 +7,7 @@
 
 [English](README-EN.md) / 简体中文
 
-在 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) PR [#100](https://github.com/CaffeineMC/sodium-fabric/pull/100) 、 [#517](https://github.com/CaffeineMC/sodium-fabric/pull/517) 、[#717](https://github.com/CaffeineMC/sodium-fabric/pull/717)
-对本地化进行了支持并被合并到 [CaffeineMC/sodium-fabric](https://github.com/CaffeineMC/sodium-fabric) / [1.17.x/dev](https://github.com/CaffeineMC/sodium-fabric/tree/1.17.x/dev) 分支,
-但由于作者未将 [Crowdin](https://crowdin.com/translate/sodium-fabric) 上的翻译移动到模组内,此材质包提供了简体中文翻译。
+由于Sodium作者不接受语言文件的PR，所以制作了此资源包。
 (有可能停止更新Sodium翻译，详见 [Sodium Translation Project - 简体中文说明](https://gist.github.com/TexBlock/1f5628574b1d6cd7df7243c8bcc552c6) )
 
 ### 模组及游戏版本支持
