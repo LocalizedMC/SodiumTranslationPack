@@ -19,7 +19,7 @@
 | BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button |  1.16.x ~ 1.19.x  | Fabric |
 |         RubidiumTranslationPack         |                          Rubidium                           | 1.16.x * ~ 1.19.x | Forge  |
 
-> *：Rubidium 1.16.x 在 0.2.6 之后支持本地化（目前实现部分本地化）。
+> *：Rubidium 1.16.x 在 0.2.8 及以后版本支持本地化。目前（v0.2.8）实现部分本地化。
 > 
 > Sodium及其附属 1.16.x 翻译: [【Sodium】钠模组汉化 游戏帧数优化三件套 - 哔哩哔哩专栏](https://www.bilibili.com/read/cv6832123/)
 >
