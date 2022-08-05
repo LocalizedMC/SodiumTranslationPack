@@ -17,10 +17,10 @@ This resource pack has been created because Sodium authors do not accept PR for 
 
 ### Mod & Game Version support :
 
-|          ResourcePack Name          |                         Mod Support                         | Game Version Support | ModLoader |
-|:-----------------------------------:|:-----------------------------------------------------------:|:--------------------:|:---------:|
-| BSVSB&Sodium&SodiumExtraTranslation | Sodium & Sodium-Extra & Better Sodium Video Settings Button |   1.16.x ~ 1.19.x    |  Fabric   |
-|       RubidiumTranslationPack       |                          Rubidium                           |   1.16.x ~ 1.19.x    |   Forge   |
+|           ResourcePack Name           |                         Mod Support                         | Game Version Support | ModLoader |
+|:-------------------------------------:|:-----------------------------------------------------------:|:--------------------:|:---------:|
+|  BSVSB&Sodium&SodiumExtraTranslation  | Sodium & Sodium-Extra & Better Sodium Video Settings Button |   1.16.x ~ 1.19.x    |  Fabric   |
+| Rubidium&RubidiumExtraTranslationPack |                  Rubidium & Rubidium-Extra                  |   1.16.5  ~ 1.19.x   |   Forge   |
 
 ### Thanks :
 
@@ -35,6 +35,8 @@ This resource pack has been created because Sodium authors do not accept PR for 
 [Rubidium](https://github.com/Asek3/Rubidium) author: **Asek3**
 
 [Sodium-Extra](https://github.com/FlashyReese/sodium-extra-fabric) author: **Flashy Reese**
+
+[Rubidium-Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra-forge) author: **dimadencep**
 
 [Better Sodium Video Settings Button](https://github.com/LimeShulkerBox/better-sodium-video-settings) author: **LimeShulkerBox**
 

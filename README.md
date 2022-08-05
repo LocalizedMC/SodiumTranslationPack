@@ -15,7 +15,7 @@
 |                  材质包名称                  |                            支持模组                             |      游戏版本支持       | 模组加载器  |
 |:---------------------------------------:|:-----------------------------------------------------------:|:-----------------:|:------:|
 | BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button |  1.16.x ~ 1.19.x  | Fabric |
-|         RubidiumTranslationPack         |                          Rubidium                           | 1.16.x * ~ 1.19.x | Forge  |
+|  Rubidium&RubidiumExtraTranslationPack  |                  Rubidium & Rubidium-Extra                  | 1.16.x * ~ 1.19.x | Forge  |
 
 > *：Rubidium 1.16.x 在 0.2.8 及以后版本支持本地化。目前（v0.2.8）实现部分本地化。
 > 
@@ -40,6 +40,8 @@
 [Rubidium](https://github.com/Asek3/Rubidium) 作者: **Asek3**
 
 [Sodium-Extra](https://github.com/FlashyReese/sodium-extra-fabric) 作者: **FlashyReese**
+
+[Rubidium-Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra-forge) 作者：**dimadencep**
 
 [Better Sodium Video Settings Button](https://github.com/LimeShulkerBox/better-sodium-video-settings) 作者: **LimeShulkerBox**
 
