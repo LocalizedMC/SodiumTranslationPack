@@ -12,16 +12,11 @@
 
 ### 模组及游戏版本支持
 
-|                  材质包名称                  |                            支持模组                             |      游戏版本支持       | 模组加载器  |
-|:---------------------------------------:|:-----------------------------------------------------------:|:-----------------:|:------:|
-| BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button |  1.16.x ~ 1.19.x  | Fabric |
-|  Rubidium&RubidiumExtraTranslationPack  |                  Rubidium & Rubidium-Extra                  | 1.16.x * ~ 1.19.x | Forge  |
+|                  材质包名称                  |                            支持模组                             |     游戏版本支持      | 模组加载器  |
+|:---------------------------------------:|:-----------------------------------------------------------:|:---------------:|:------:|
+| BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button | 1.16.x ~ 1.19.x | Fabric |
+|  Rubidium&RubidiumExtraTranslationPack  |                  Rubidium & Rubidium-Extra                  | 1.16.x ~ 1.19.x | Forge  |
 
-> *：Rubidium 1.16.x 在 0.2.8 及以后版本支持本地化。目前（v0.2.8）已实现本地化。
-> 
-> Sodium及其附属 1.16.x 翻译: [【Sodium】钠模组汉化 游戏帧数优化三件套 - 哔哩哔哩专栏](https://www.bilibili.com/read/cv6832123/)
->
-> Magnesium及其附属 1.16.x 翻译: [Molarczsq/Magnesium-should-be-in-Chinese](https://github.com/Molarczsq/Magnesium-should-be-in-Chinese)
 > 
 > Magnesium/Rubidium Extras 本地化 : [ForgeModi18n/MgRb-Extras-i18n](https://github.com/ForgeModi18n/MgRb-Extras-i18n)
 > 
@@ -35,7 +30,7 @@
 
 [Halogen](https://github.com/spoorn/sodium-forge) 作者: **spoorn**
 
-[Magnesium](https://github.com/Someone-Else-Was-Taken/Magnesium) 作者: **someoneelsewastaken**
+[Magnesium](https://github.com/Someone-Else-Was-Taken/Magnesium) 作者: **SomeOneElseWasTaken**
 
 [Rubidium](https://github.com/Asek3/Rubidium) 作者: **Asek3**
 
