@@ -1,7 +1,7 @@
 <p align="center">
- <img width="100px" src="icons/PackIcon/bitmap-png/SodiumPack.png" align="center" alt="" />
- <img width="100px" src="icons/PackIcon/bitmap-png/RubidiumPack.png" align="center" alt="" />
- <img width="100px" src="icons/PackIcon/bitmap-png/SodiumAllPack.png" align="center" alt="" />
+ <img width="100px" src="OLD/icons/PackIcon/bitmap-png/SodiumPack.png" align="center" alt="" />
+ <img width="100px" src="OLD/icons/PackIcon/bitmap-png/RubidiumPack.png" align="center" alt="" />
+ <img width="100px" src="OLD/icons/PackIcon/bitmap-png/SodiumAllPack.png" align="center" alt="" />
  <h2 align="center">Sodium Translation Pack</h2>
  <p align="center">Translation resource packs for Sodium and its affiliates and Forge branches. </p>
 
@@ -43,6 +43,8 @@ This resource pack has been created because Sodium authors do not accept PR for 
 [Rubidium-Extra](https://www.curseforge.com/minecraft/mc-mods/sodium-extra-forge) author: **dimadencep**
 
 [Better Sodium Video Settings Button](https://github.com/LimeShulkerBox/better-sodium-video-settings) author: **LimeShulkerBox**
+
+Use [CFPAOrg/Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) for automatic packaging within the repository (following the [CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) license agreement).
 
 **MojangStudio**
 
