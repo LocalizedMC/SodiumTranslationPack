@@ -1,0 +1,19 @@
+{
+    "better-magnesium-video-settings-button": {
+        "downloadCount": 13765,
+        "id": 504862,
+        "latestFiles": {
+            "1.16": 3582393
+        },
+        "name": "Better Magnesium Video Settings Button"
+    },
+    "sodium": {
+        "downloadCount": 6624038,
+        "id": 394468,
+        "latestFiles": {
+            "1.16-fabric": 3488820,
+            "1.18-fabric": 3669187
+        },
+        "name": "Sodium"
+    }
+}

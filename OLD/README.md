@@ -40,8 +40,6 @@
 
 [Better Sodium Video Settings Button](https://github.com/LimeShulkerBox/better-sodium-video-settings) 作者: **LimeShulkerBox**
 
-使用 [CFPAOrg/Minecraft-Mod-Language-Package](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) 仓库内的自动打包（遵循[CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)协议）
-
 **MojangStudio**
 
 <p align="center">
