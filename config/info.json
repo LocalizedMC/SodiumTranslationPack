@@ -1,5 +1,5 @@
 {
-    "better-magnesium-video-settings-button": {           // TODO: bmvsb
+    "better-magnesium-video-settings-button": {
         "name": "Better Magnesium Video Settings Button",
         "downloadCount": 13076,
         "latestFiles": {
@@ -7,7 +7,7 @@
         },
         "id": 504862
     },
-    "sodium": {                 // TODO: sodium
+    "sodium": {
         "name": "Sodium",
         "downloadCount": 6403200,
         "latestFiles": {
