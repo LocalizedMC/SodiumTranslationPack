@@ -78,8 +78,7 @@ jobs:
           prerelease: false
 
       # Upload release asset: https://github.com/actions/upload-release-asset
-
-      - name: Update release asset
+      - name: Update release asset (1.16)
         id: upload-release-asset1
         if: steps.changed-116.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: actions/upload-release-asset@v1
@@ -87,12 +86,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: SodiumTranslationPack-1.16.zip
+          asset_path: ./SodiumTranslationPack-1.16.zip
           asset_name: SodiumTranslationPack-1.16.zip
           asset_content_type: application/zip
 
         
-      - name: Update release asset
+      - name: Update release asset (1.16 Fabric)
         id: upload-release-asset2
         if: steps.changed-116-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: actions/upload-release-asset@v1
@@ -100,11 +99,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: SodiumTranslationPack-1.16-fabric.zip
+          asset_path: ./SodiumTranslationPack-1.16-fabric.zip
           asset_name: SodiumTranslationPack-1.16-fabric.zip
           asset_content_type: application/zip
 
-      - name: Update release asset
+      - name: Update release asset (1.18)
         id: upload-release-asset3
         if: steps.changed-118.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: actions/upload-release-asset@v1
@@ -112,11 +111,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: SodiumTranslationPack-1.18.zip
+          asset_path: ./SodiumTranslationPack-1.18.zip
           asset_name: SodiumTranslationPack-1.18.zip
           asset_content_type: application/zip
 
-      - name: Update release asset
+      - name: Update release asset (1.18 Fabric)
         id: upload-release-asset4
         if: steps.changed-118-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: actions/upload-release-asset@v1
@@ -124,7 +123,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: SodiumTranslationPack-1.18-fabric.zip
+          asset_path: ./SodiumTranslationPack-1.18-fabric.zip
           asset_name: SodiumTranslationPack-1.18-fabric.zip
           asset_content_type: application/zip
 
