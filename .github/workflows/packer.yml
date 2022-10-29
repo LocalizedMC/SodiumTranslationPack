@@ -1,9 +1,9 @@
 name: Packer
-# cloned from main branch, merely edited
+# cloned from master branch, merely edited
 on:
   workflow_dispatch:
   push:
-    branches: [master]
+    branches: [ master ]
     paths: 
       - 'config/packer.json'
       - 'projects/**'
@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 20
-          ref: main
+          ref: master
 
       - name: Check changed path on 1.16
         uses: MarceloPrado/has-changed-path@v1.0
