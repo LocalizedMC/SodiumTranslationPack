@@ -44,19 +44,19 @@ jobs:
       - name: Build Packer
         run: dotnet publish .\src\Packer\Packer.csproj -o ./ -r win-x64 -p:PublishSingleFile=true
 
-      - name: Run Packer
+      - name: Run Packer (1.16)
         run: ./Packer --version="1.16"
         if: steps.changed-116.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
 
-      - name: Run Packer
+      - name: Run Packer (1.16 Fabric)
         run: ./Packer --version="1.16-fabric"
         if: steps.changed-116-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
 
-      - name: Run Packer
+      - name: Run Packer (1.18)
         run: ./Packer --version="1.18"
         if: steps.changed-118.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         
-      - name: Run Packer
+      - name: Run Packer (1.18 Fabric)
         run: ./Packer --version="1.18-fabric"
         if: steps.changed-118-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
 
