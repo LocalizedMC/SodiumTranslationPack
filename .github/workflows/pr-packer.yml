@@ -45,25 +45,45 @@ jobs:
         with:
           paths: projects/1.18-fabric
           
+      - name: Check changed path on 1.19
+        uses: MarceloPrado/has-changed-path@v1.0
+        id: changed-119
+        with:
+          paths: projects/1.19
+
+      - name: Check changed path on 1.19 fabric
+        uses: MarceloPrado/has-changed-path@v1.0
+        id: changed-119-fabric
+        with:
+          paths: projects/1.19-fabric
+
       - name: Build Packer
         run: dotnet publish .\src\Packer\Packer.csproj -o ./ -r win-x64 -p:PublishSingleFile=true
 
-      - name: Run Packer
+      - name: Run Packer (1.16)
         run: ./Packer --version="1.16"
         if: steps.changed-116.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         
-      - name: Run Packer
+      - name: Run Packer (1.16 Fabric)
         run: ./Packer --version="1.16-fabric"
         if: steps.changed-116-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         
-      - name: Run Packer
+      - name: Run Packer (1.18)
         run: ./Packer --version="1.18"
         if: steps.changed-118.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         
-      - name: Run Packer
+      - name: Run Packer (1.18 Fabric)
         run: ./Packer --version="1.18-fabric"
         if: steps.changed-118-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
+      
+      - name: Run Packer (1.19)
+        run: ./Packer --version="1.19"
+        if: steps.changed-119.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         
+      - name: Run Packer (1.19 Fabric)
+        run: ./Packer --version="1.19-fabric"
+        if: steps.changed-119-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
+
       - name: Create timestamp
         id: create_timestamp
         run: echo "::set-output name=timestamp::$(date '+%Y%m%d%H%M%s')"
@@ -74,8 +94,10 @@ jobs:
         run:  |
           unzip -q SodiumTranslationPack-1.16.zip -d SodiumTranslationPack-1.16 || echo 0
           unzip -q SodiumTranslationPack-1.18.zip -d SodiumTranslationPack-1.18 || echo 0
+          unzip -q SodiumTranslationPack-1.19.zip -d SodiumTranslationPack-1.19 || echo 0
           unzip -q SodiumTranslationPack-1.16-fabric.zip -d SodiumTranslationPack-1.16-fabric || echo 0
           unzip -q SodiumTranslationPack-1.18-fabric.zip -d SodiumTranslationPack-1.18-fabric || echo 0
+          unzip -q SodiumTranslationPack-1.19-fabric.zip -d SodiumTranslationPack-1.19-fabric || echo 0
         shell: bash
           
       - name: Upload Artifact 1.16
@@ -105,4 +127,17 @@ jobs:
           name: SodiumTranslationPack-1.18-fabric
           path: SodiumTranslationPack-1.18-fabric/*
         if: steps.changed-118-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
+
+       - name: Upload Artifact 1.19
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: SodiumTranslationPack-1.19
+          path: SodiumTranslationPack-1.19/*
+        if: steps.changed-119.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         
+      - name: Upload Artifact 1.19 fabric
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: Minecraft-Mod-Language-Package-1.19-fabric
+          path: Minecraft-Mod-Language-Package-1.19-fabric/*
+        if: steps.changed-119-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
