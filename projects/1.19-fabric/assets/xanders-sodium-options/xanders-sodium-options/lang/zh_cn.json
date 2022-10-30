@@ -1,0 +1,4 @@
+{
+  "xso.incompatible.button": "不兼容",
+  "xso.incompatible.tooltip": "这个选项目前与 XSO 不兼容。请提出 issue 以获得支持!"
+}

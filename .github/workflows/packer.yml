@@ -41,24 +41,38 @@ jobs:
         with:
           paths: projects/1.18-fabric
 
+      - name: Check changed path on 1.19
+        uses: MarceloPrado/has-changed-path@v1.0
+        id: changed-119
+        with:
+          paths: projects/1.19
+
+      - name: Check changed path on 1.19 fabric
+        uses: MarceloPrado/has-changed-path@v1.0
+        id: changed-119-fabric
+        with:
+          paths: projects/1.19-fabric
+
       - name: Build Packer
         run: dotnet publish .\src\Packer\Packer.csproj -o ./ -r win-x64 -p:PublishSingleFile=true
 
       - name: Run Packer (1.16)
         run: ./Packer --version="1.16"
-        if: steps.changed-116.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
 
       - name: Run Packer (1.16 Fabric)
         run: ./Packer --version="1.16-fabric"
-        if: steps.changed-116-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
 
       - name: Run Packer (1.18)
         run: ./Packer --version="1.18"
-        if: steps.changed-118.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         
       - name: Run Packer (1.18 Fabric)
         run: ./Packer --version="1.18-fabric"
-        if: steps.changed-118-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
+
+      - name: Run Packer (1.19)
+        run: ./Packer --version="1.19"
+        
+      - name: Run Packer (1.19 Fabric)
+        run: ./Packer --version="1.19-fabric"
 
       - name: Create timestamp
         id: create_timestamp
@@ -79,7 +93,6 @@ jobs:
       # Upload release asset: https://github.com/shogo82148/actions-upload-release-asset
       - name: Update release asset (1.16)
         id: upload-release-asset2
-        if: steps.changed-116.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: shogo82148/actions-upload-release-asset@v1
         with:
           github_token: ${{ github.token }}
@@ -89,7 +102,6 @@ jobs:
 
       - name: Update release asset (1.16 Fabric)
         id: upload-release-asset3
-        if: steps.changed-116-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: shogo82148/actions-upload-release-asset@v1
         with:
           github_token: ${{ github.token }}
@@ -99,7 +111,6 @@ jobs:
 
       - name: Update release asset (1.18)
         id: upload-release-asset4
-        if: steps.changed-118.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: shogo82148/actions-upload-release-asset@v1
         with:
           github_token: ${{ github.token }}
@@ -109,10 +120,27 @@ jobs:
 
       - name: Update release asset (1.18 Fabric)
         id: upload-release-asset5
-        if: steps.changed-118-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'
         uses: shogo82148/actions-upload-release-asset@v1
         with:
           github_token: ${{ github.token }}
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: SodiumTranslationPack-1.18-fabric.zip
+          asset_content_type: application/zip
+
+      - name: Update release asset (1.19)
+        id: upload-release-asset4
+        uses: shogo82148/actions-upload-release-asset@v1
+        with:
+          github_token: ${{ github.token }}
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: SodiumTranslationPack-1.19.zip
+          asset_content_type: application/zip
+
+      - name: Update release asset (1.19 Fabric)
+        id: upload-release-asset5
+        uses: shogo82148/actions-upload-release-asset@v1
+        with:
+          github_token: ${{ github.token }}
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: SodiumTranslationPack-1.19-fabric.zip
           asset_content_type: application/zip
