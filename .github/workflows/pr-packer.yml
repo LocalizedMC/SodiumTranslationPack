@@ -138,6 +138,6 @@ jobs:
       - name: Upload Artifact 1.19 fabric
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: Minecraft-Mod-Language-Package-1.19-fabric
-          path: Minecraft-Mod-Language-Package-1.19-fabric/*
+          name: SodiumTranslationPack-1.19-fabric
+          path: SodiumTranslationPack-1.19-fabric/*
         if: steps.changed-119-fabric.outputs.changed == 'true' ||  github.event_name == 'workflow_dispatch'

@@ -128,7 +128,7 @@ jobs:
           asset_content_type: application/zip
 
       - name: Update release asset (1.19)
-        id: upload-release-asset4
+        id: upload-release-asset6
         uses: shogo82148/actions-upload-release-asset@v1
         with:
           github_token: ${{ github.token }}
@@ -137,7 +137,7 @@ jobs:
           asset_content_type: application/zip
 
       - name: Update release asset (1.19 Fabric)
-        id: upload-release-asset5
+        id: upload-release-asset7
         uses: shogo82148/actions-upload-release-asset@v1
         with:
           github_token: ${{ github.token }}
