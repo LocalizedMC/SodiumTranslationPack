@@ -15,13 +15,6 @@ This resource pack has been created because Sodium authors do not accept PR for 
 
 (It is possible to stop updating sodium translation,  [Sodium Translation Project](https://gist.github.com/amnotbananaama/6cfd6ce27e3258d50db6a4fd9291aa94) )
 
-### Mod & Game Version support :
-
-|           ResourcePack Name           |                         Mod Support                         | Game Version Support | ModLoader |
-|:-------------------------------------:|:-----------------------------------------------------------:|:--------------------:|:---------:|
-|  BSVSB&Sodium&SodiumExtraTranslation  | Sodium & Sodium-Extra & Better Sodium Video Settings Button |   1.16.x ~ 1.19.x    |  Fabric   |
-| Rubidium&RubidiumExtraTranslationPack |                  Rubidium & Rubidium-Extra                  |   1.16.5  ~ 1.19.x   |   Forge   |
-
 > Magnesium/Rubidium Extras i18n : [ForgeModi18n/MgRb-Extras-i18n](https://github.com/ForgeModi18n/MgRb-Extras-i18n)
 >
 > Magnesium/Rubidium DynamicLights i18n : [ForgeModi18n/MgRbDynamicLights-i18n](https://github.com/ForgeModi18n/MgRbDynamicLights-i18n)
