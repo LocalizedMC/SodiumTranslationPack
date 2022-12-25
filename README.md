@@ -10,13 +10,6 @@
 由于Sodium作者不接受语言文件的PR，所以制作了此资源包。
 (有可能停止更新Sodium翻译，详见 [Sodium Translation Project - 简体中文说明](https://gist.github.com/TexBlock/1f5628574b1d6cd7df7243c8bcc552c6) )
 
-### 模组及游戏版本支持
-
-|                  材质包名称                  |                            支持模组                             |     游戏版本支持      | 模组加载器  |
-|:---------------------------------------:|:-----------------------------------------------------------:|:---------------:|:------:|
-| BSVSB&Sodium&SodiumExtraTranslationPack | Sodium & Sodium-Extra & Better Sodium Video Settings Button | 1.16.x ~ 1.19.x | Fabric |
-|  Rubidium&RubidiumExtraTranslationPack  |                  Rubidium & Rubidium-Extra                  | 1.16.x ~ 1.19.x | Forge  |
-
 > 
 > Magnesium/Rubidium Extras 本地化 : [ForgeModi18n/MgRb-Extras-i18n](https://github.com/ForgeModi18n/MgRb-Extras-i18n)
 > 
